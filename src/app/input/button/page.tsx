@@ -1,8 +1,11 @@
 import React from 'react'
+import FormButton from './components/form-button'
 
 const InputButton = () => {
   return (
-    <div>InputButton</div>
+    <div>
+      <FormButton />
+    </div>
   )
 }
 

@@ -22,7 +22,7 @@ const Navbar = () => {
     },
   ]
   return (
-    <ul className='flex gap-4 p-2'>
+    <ul className='flex gap-4 mb-4 '>
       {
         navItems.map(item => <li className='underline text-[yellow] ' key={item.label}>
           <Link href={item.href}  >
