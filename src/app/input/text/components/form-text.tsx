@@ -3,7 +3,7 @@ import InputLabel from './input-label'
 import InputPlaceholder from './input-placeholder'
 import DivContentEditable from './div-contenteditable'
 
-const Form = () => {
+const FormText = () => {
   return (
     <form
       className='space-y-8'
@@ -17,4 +17,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default FormText
