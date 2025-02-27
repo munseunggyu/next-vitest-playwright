@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "npx vitest",
-    "playwright-ui": "npx playwright test --ui"
+    "playwright-ui": "npx playwright test --ui",
+    "playwright-debug": "npx playwright test --debug __tests__/pages/input/select/main.e2e-spec.ts:11"
   },
   "dependencies": {
     "next": "14.2.24",
