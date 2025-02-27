@@ -20,6 +20,10 @@ const Navbar = () => {
       label: 'input-button',
       href: '/input/button',
     },
+    {
+      label: 'input-select',
+      href: '/input/select',
+    },
   ]
   return (
     <ul className='flex gap-4 mb-4 '>
